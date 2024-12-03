@@ -229,12 +229,16 @@ position: absolute;
     padding-left: 0;
     padding-top: 5%;
     display: flex;
+    width: 600px;
+    transform: scale(0.8); /* Scales the div to 80% of its original size */
+    transform-origin: top left; /* Adjusts the scaling pivot point */
 
 }
 
 .About-sec1{
     position: relative;
     padding-left: 20px;
+    margin-left: 5%;
 }
 .About-texts h1{
  width: 241px;
@@ -326,7 +330,7 @@ margin-right: 200px;
 }
 
 .A-container1 p{
-    font-family: Inter;
+font-family: Inter;
 font-size: 22px;
 font-weight: 700;
 text-align: left;
@@ -379,14 +383,14 @@ margin-top: 35px;
 .About-sec2{
     margin-top: 20px;
     width: 50%;
-    padding-left: 2px;
+    padding-left: 50%;
 }
 
 .About-sec2-texts{
 width: 534px;
 height: 190px;
 top: 1099px;
-left: 750px;
+left: 75px;
 gap: 0px;
 opacity: 0px;
 font-family: Inter;
@@ -431,7 +435,7 @@ padding-left: 5rem;
 }
 .groups-container{
     display: flex;
-    position: relative absolute;
+    position: relative;
     text-align: center;
     gap: 2rem;
     margin-bottom: 0rem;
@@ -449,7 +453,7 @@ padding-left: 5rem;
 .group-img{
     display: flex;
     position: absolute;
-    top: 90rem;
+    top: 30.5rem;
     padding-left: 3rem;
     padding-bottom: 10rem;
 }
@@ -484,7 +488,7 @@ font-weight: 600;
 text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
-
-
 }
+
+
 
