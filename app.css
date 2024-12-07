@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+    .html{
+        margin-top:
+        padding-right: 0%;
+        padding-right: 0%;
+    }
+    
+    *{
+        
+        width: 100;
+    }
+
+.header .nav{
+    display: flex;
+    gap: 0%;
+    padding: 20px; 
+    background-color: #00412692;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    
+}
+
+
+.logo{
+    margin-left: -80px;
+    margin-right: 150px;
+}
+    .menu{
+        align-self:baseline;
+        background: 0;
+        display: block;
+        transform: scale(1.5);
+        margin-top: 6%;
+    }
+    .menu .open{
+        display: block;
+        /* background: blu; */
+        color: white;
+    }
+    .menu .close{
+       display: none;
+        color: white;
+    }
+
+    .button{
+      display: none; 
+        
+    }
+
+
+
+    .header{
+        display: block;
+    }
+
+    .links{
+       flex-direction: column;
+       align-items: center;
+       margin-top: 90px;
+       margin-left: -150px;
+       margin-right:0 ;
+       display:none;
+    }
+
+
+
+ 
+
+    .hero{
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     top: auto;
+    }
+
+
+    .HeroText{
+        transform: scale(0.6);
+        top: 1%;
+
+    }
+
+    .HeroPicture{
+        transform: scale(0.5);
+        left: 10%;
+        top: 40%;
+    }
+    .About-section{
+        transform: scale(0.5);
+        position: absolute;
+        top: auto;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+ 
+
+    .About-sec2{
+       position: absolute;
+       top: 100%;
+       right: 30%;;
+
+    }
+}    

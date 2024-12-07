@@ -2,6 +2,7 @@ body{
     margin: 0;
 }
 
+
 .header{
     margin-bottom: 0;
 }
@@ -28,6 +29,12 @@ body{
     
 }
 
+.menu {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
 .links{
    gap: 1.5rem;
    justify-content: center;
@@ -46,6 +53,8 @@ body{
     height: 800px;
     background-color: #074643;
     margin-top: 0%;
+
+
 }
 
 
@@ -58,6 +67,9 @@ body{
     gap: 48;
     height: 400px;
     width: 600px;
+    transform: scale(0.8); /* Scales the div to 80% of its original size */
+    transform-origin: top left; /* Adjusts the scaling pivot point */
+
 }
 
 .HeroText h1{
@@ -172,7 +184,9 @@ opacity: 0px;
 .HeroPicture{
     position: absolute;
     right: 5%; top: 25%;
-    
+    transform: scale(0.9); /* Scales the div to 80% of its original size */
+    transform-origin: top left; /* Adjusts the scaling pivot point */
+
 }
 
 .Rectangle10k{
@@ -490,5 +504,28 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 }
 
+
+
+@media screen (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: #444;
+        border-radius: 5px;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .nav-links.active {
+        display: flex;
+      }
+    
+      #hamburger {
+        display: block;
+      }
+}
 
 
