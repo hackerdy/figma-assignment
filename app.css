@@ -2,7 +2,7 @@
     .html{
         margin-top:
         padding-right: 0%;
-        padding-right: 0%;
+        padding-left: 0;
     }
     
     *{
@@ -55,7 +55,7 @@
 
     .header{
         display: block;
-        width: 100%;
+        width: 106%;
     }
 
     .links{
@@ -76,12 +76,14 @@
      flex-direction: column;
      position: relative;
      top: auto;
+     width: 106%;
     }
 
 
     .HeroText{
         transform: scale(0.6);
         top: 1%;
+        max-width: ;
     }
 
 
@@ -116,4 +118,5 @@
        right: 30%;;
 
     }
+    
 }    
