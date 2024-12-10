@@ -18,6 +18,8 @@
     text-decoration: none;
     justify-content: space-evenly;
     margin-bottom: 0px;
+    height: -30%;
+    transition: 9s;
     
 }
 
