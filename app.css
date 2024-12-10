@@ -7,7 +7,7 @@
     
     *{
         
-        width: 100;
+        width: auto;
     }
 
 .header .nav{
@@ -19,7 +19,7 @@
     justify-content: space-evenly;
     margin-bottom: 0px;
     height: -30%;
-    transition: 9s;
+    
     
 }
 
@@ -47,6 +47,7 @@
 
     .button{
       display: none; 
+      width: 0;
         
     }
 
@@ -54,6 +55,7 @@
 
     .header{
         display: block;
+        width: 100%;
     }
 
     .links{
@@ -80,13 +82,22 @@
     .HeroText{
         transform: scale(0.6);
         top: 1%;
-
     }
+
+
+    .HeroText p{
+      width: fit-content;
+    }
+
 
     .HeroPicture{
         transform: scale(0.5);
         left: 10%;
         top: 40%;
+    }
+
+    .rectangle2 h4{
+        width: fit-content;
     }
     .About-section{
         transform: scale(0.5);
